@@ -1,44 +1,19 @@
 # Project Title
 
-One Paragraph of project description goes here
+In the past recent years, SLAM has increase it popularity, since the demand of autonomous driving is increasing. SLAM problem is a direct problem that is related to the Autonomous vehicle. It's the back bones behind unmanned vehicles and drones, self driving cars, robotics and also augmented reality applications.\\
+\indent In this project we introduce a technique called Kalman Filter, which is close to state of the art technique in SLAM. The assumption is that our model comes from a Gaussian Distribution. Through an iterative method of update and prediction, we hope to obtain the best approximation of the landmarks position and the robot pose as the same time perform mapping.
+## Problem Formulation
+The SLAM bot in this project is a simple robot that is similar to a car that can move around and rotate. When the robot move around the environment we need to perform two tasks: Localization and Mapping. Both are using the idea of Kalman filter.  \\
+\indent To perform visual mapping, our assumption is that the inverse IMU pose over time is known, and also the data association over time of the landmarks observed at each time is also known and static. Then our objective is that given the visual feature of the observations, we would like to estimate the homogeneous coordinates in the world frame of the landmarks. From the predicted and updated landmarks, we wish to update our pose of the robot based on the landmarks position.
+### Technical Approach
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
+As mentioned in the introduction section, our project targeting two important tasks which is Mapping and localization. Given the reading of the IMU which consists of angular and linear velocity; we wish to make prediction of the robot pose(mean) and also the co variance matrix based on Extended Kalman filter idea of the assumption that our motion model come from a Gaussian Distribution. The Prediction if as follow:
 
 ```
 Give examples
 ```
 
-### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
 
 ```
 Give an example
@@ -46,7 +21,7 @@ Give an example
 
 ### And coding style tests
 
-Explain what these tests test and why
+This Project is written in python
 
 ```
 Give an example
