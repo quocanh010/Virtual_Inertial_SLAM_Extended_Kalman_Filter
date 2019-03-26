@@ -14,7 +14,7 @@ As mentioned in the introduction section, our project targeting two important ta
 ### Result
 
 Here is the Trajectory; vitual features when the robot moving around and the features in 3D
-![Screenshot](figure1.png)
+![Screenshot](Figure_1.png)
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
