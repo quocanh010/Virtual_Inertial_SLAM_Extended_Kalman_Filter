@@ -7,26 +7,14 @@ The SLAM bot in this project is a simple robot that is similar to a car that can
 \indent To perform visual mapping, our assumption is that the inverse IMU pose over time is known, and also the data association over time of the landmarks observed at each time is also known and static. Then our objective is that given the visual feature of the observations, we would like to estimate the homogeneous coordinates in the world frame of the landmarks. From the predicted and updated landmarks, we wish to update our pose of the robot based on the landmarks position.
 ### Technical Approach
 
-As mentioned in the introduction section, our project targeting two important tasks which is Mapping and localization. Given the reading of the IMU which consists of angular and linear velocity; we wish to make prediction of the robot pose(mean) and also the co variance matrix based on Extended Kalman filter idea of the assumption that our motion model come from a Gaussian Distribution. The Prediction if as follow:
-
-```
-Give examples
-```
+As mentioned in the introduction section, our project targeting two important tasks which is Mapping and localization. Given the reading of the IMU which consists of angular and linear velocity; we wish to make prediction of the robot pose(mean) and also the co variance matrix based on Extended Kalman filter idea of the assumption that our motion model come from a Gaussian Distribution. 
 
 
 
-```
-Give an example
-```
+### Result
 
-### And coding style tests
-
-This Project is written in python
-
-```
-Give an example
-```
-
+Here is the Trajectory; vitual features when the robot moving around and the features in 3D
+![Screenshot](figure1.png)
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
