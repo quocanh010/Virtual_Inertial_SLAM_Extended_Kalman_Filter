@@ -15,6 +15,7 @@ As mentioned in the introduction section, our project targeting two important ta
 
 Here is the Trajectory; vitual features when the robot moving around and the features in 3D
 ![Screenshot](Figure_1.png)
+![Screenshot](Figure_3.png)
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
@@ -35,7 +36,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Adrian Mai* 
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
