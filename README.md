@@ -1,4 +1,4 @@
-# Project Title
+# Virtual_Inertial_SLAM_Extended_Kalman_Filter
 
 In the past recent years, SLAM has increase it popularity, since the demand of autonomous driving is increasing. SLAM problem is a direct problem that is related to the Autonomous vehicle. It's the back bones behind unmanned vehicles and drones, self driving cars, robotics and also augmented reality applications.\\
 \indent In this project we introduce a technique called Kalman Filter, which is close to state of the art technique in SLAM. The assumption is that our model comes from a Gaussian Distribution. Through an iterative method of update and prediction, we hope to obtain the best approximation of the landmarks position and the robot pose as the same time perform mapping.
